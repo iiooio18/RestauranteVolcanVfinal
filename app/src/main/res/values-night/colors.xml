@@ -1,0 +1,8 @@
+<resources>
+    <color name="volcan_background">#201714</color>
+    <color name="volcan_surface">#2B201D</color>
+    <color name="volcan_text_primary">#FFF4F0</color>
+    <color name="volcan_text_secondary">#D6BBB2</color>
+    <color name="volcan_border">#503730</color>
+    <color name="volcan_soft">#472620</color>
+</resources>

@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.RestauranteVolcan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/volcan_primary</item>
+        <item name="colorPrimaryVariant">@color/volcan_primary_dark</item>
+        <item name="colorSecondary">@color/volcan_secondary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:navigationBarColor">@color/volcan_background</item>
+        <item name="android:statusBarColor">@color/volcan_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorAccent" tools:targetApi="l">@color/volcan_secondary</item>
+    </style>
+
+    <style name="TableHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">105dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/volcan_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TableCell">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">105dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/volcan_text_secondary</item>
+    </style>
+</resources>

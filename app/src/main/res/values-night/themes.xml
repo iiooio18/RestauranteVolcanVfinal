@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.RestauranteVolcan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/volcan_primary</item>
+        <item name="colorPrimaryVariant">@color/volcan_primary_dark</item>
+        <item name="colorSecondary">@color/volcan_secondary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:navigationBarColor">@color/volcan_background</item>
+        <item name="android:statusBarColor">@color/volcan_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

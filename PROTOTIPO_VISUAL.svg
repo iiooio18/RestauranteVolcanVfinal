@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8f5"/>
+      <stop offset="1" stop-color="#f4dfd6"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#711811"/>
+      <stop offset="1" stop-color="#a3261f"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#3b1712" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title{font:700 44px Arial,sans-serif;fill:#2b1b18}
+      .subtitle{font:400 20px Arial,sans-serif;fill:#735e59}
+      .screen-label{font:700 20px Arial,sans-serif;fill:#711811;letter-spacing:1px}
+      .phone-title{font:700 24px Arial,sans-serif;fill:#2b1b18}
+      .phone-title-white{font:700 24px Arial,sans-serif;fill:#fff}
+      .body{font:400 14px Arial,sans-serif;fill:#735e59}
+      .body-white{font:400 13px Arial,sans-serif;fill:#ffd9ca}
+      .small{font:400 11px Arial,sans-serif;fill:#735e59}
+      .card-title{font:700 14px Arial,sans-serif;fill:#2b1b18}
+      .button{font:700 13px Arial,sans-serif;fill:#fff;letter-spacing:.8px}
+      .button-red{font:700 13px Arial,sans-serif;fill:#a3261f;letter-spacing:.8px}
+      .field{font:400 13px Arial,sans-serif;fill:#735e59}
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#board)"/>
+  <circle cx="1750" cy="140" r="220" fill="#e66b32" opacity=".08"/>
+  <circle cx="140" cy="980" r="260" fill="#a3261f" opacity=".06"/>
+
+  <text x="110" y="85" class="title">Prototipo visual · Volcán Waffles &amp; Café</text>
+  <text x="110" y="122" class="subtitle">Sistema de bodega para ingredientes, cafetería y materiales · Ovalle</text>
+  <rect x="110" y="146" width="1700" height="2" fill="#e6c9be"/>
+
+  <!-- Screen 1 -->
+  <g transform="translate(105 195)">
+    <text x="165" y="0" text-anchor="middle" class="screen-label">01 · PRESENTACIÓN</text>
+    <rect x="0" y="28" width="330" height="760" rx="38" fill="#1d1716" filter="url(#shadow)"/>
+    <rect x="12" y="40" width="306" height="736" rx="29" fill="#fff8f5"/>
+    <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
+    <rect x="12" y="40" width="306" height="355" rx="29" fill="url(#hero)"/>
+    <rect x="12" y="360" width="306" height="35" fill="url(#hero)"/>
+    <circle cx="165" cy="148" r="58" fill="#d54d30"/>
+    <path d="M131 176 L165 103 L199 176 Z" fill="#fff"/>
+    <path d="M147 176 L165 138 L183 176 Z" fill="#ffd9ca"/>
+    <text x="165" y="235" text-anchor="middle" class="phone-title-white">Volcán Waffles</text>
+    <text x="165" y="263" text-anchor="middle" class="phone-title-white">&amp; Café</text>
+    <text x="165" y="291" text-anchor="middle" class="body-white">Ingredientes, cafetería</text>
+    <text x="165" y="311" text-anchor="middle" class="body-white">y materiales del local</text>
+    <text x="32" y="435" class="card-title" style="font-size:18px">Todo en un solo lugar</text>
+    <rect x="30" y="460" width="270" height="88" rx="16" fill="#fff" stroke="#eeddd7"/>
+    <circle cx="68" cy="504" r="25" fill="#fce8e1"/>
+    <rect x="57" y="491" width="22" height="26" rx="3" fill="#a3261f"/>
+    <text x="105" y="497" class="card-title">Inventario organizado</text>
+    <text x="105" y="520" class="small">Ingredientes y disponibilidad</text>
+    <rect x="30" y="562" width="270" height="88" rx="16" fill="#fff" stroke="#eeddd7"/>
+    <circle cx="68" cy="606" r="25" fill="#fce8e1"/>
+    <path d="M55 606 H81 M68 593 V619" stroke="#a3261f" stroke-width="6" stroke-linecap="round"/>
+    <text x="105" y="599" class="card-title">Movimientos claros</text>
+    <text x="105" y="622" class="small">Entradas y salidas rápidas</text>
+    <rect x="30" y="681" width="270" height="54" rx="14" fill="#a3261f"/>
+    <text x="165" y="714" text-anchor="middle" class="button">COMENZAR</text>
+  </g>
+
+  <!-- Screen 2 -->
+  <g transform="translate(565 195)">
+    <text x="165" y="0" text-anchor="middle" class="screen-label">02 · LOGIN</text>
+    <rect x="0" y="28" width="330" height="760" rx="38" fill="#1d1716" filter="url(#shadow)"/>
+    <rect x="12" y="40" width="306" height="736" rx="29" fill="#fff8f5"/>
+    <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
+    <circle cx="165" cy="145" r="45" fill="#a3261f"/>
+    <path d="M138 169 L165 111 L192 169 Z" fill="#fff"/>
+    <text x="165" y="220" text-anchor="middle" class="card-title" style="font-size:20px">Volcán Waffles &amp; Café</text>
+    <text x="165" y="245" text-anchor="middle" class="body">Gestión de insumos y bodega</text>
+    <rect x="28" y="282" width="274" height="350" rx="20" fill="#fff" stroke="#eeddd7"/>
+    <text x="50" y="325" class="phone-title" font-size="20">Iniciar sesión</text>
+    <text x="50" y="350" class="body">Ingresa tus credenciales</text>
+    <rect x="48" y="380" width="234" height="55" rx="10" fill="#fff" stroke="#a98e86"/>
+    <text x="62" y="413" class="field">Usuario</text>
+    <rect x="48" y="452" width="234" height="55" rx="10" fill="#fff" stroke="#a98e86"/>
+    <text x="62" y="485" class="field">Contraseña</text>
+    <rect x="50" y="524" width="16" height="16" rx="3" fill="#a3261f"/>
+    <path d="M53 532 L58 537 L64 528" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="75" y="537" class="small">Usar credenciales de demostración</text>
+    <rect x="48" y="562" width="234" height="50" rx="12" fill="#a3261f"/>
+    <text x="165" y="593" text-anchor="middle" class="button">INGRESAR</text>
+    <rect x="60" y="660" width="210" height="40" rx="20" fill="#fce8e1"/>
+    <text x="165" y="685" text-anchor="middle" class="small" fill="#711811">admin / admin123</text>
+  </g>
+
+  <!-- Screen 3 -->
+  <g transform="translate(1025 195)">
+    <text x="165" y="0" text-anchor="middle" class="screen-label">03 · MENÚ</text>
+    <rect x="0" y="28" width="330" height="760" rx="38" fill="#1d1716" filter="url(#shadow)"/>
+    <rect x="12" y="40" width="306" height="736" rx="29" fill="#fff8f5"/>
+    <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
+    <rect x="12" y="40" width="306" height="210" rx="29" fill="url(#hero)"/>
+    <rect x="12" y="215" width="306" height="35" fill="url(#hero)"/>
+    <text x="35" y="100" class="body-white">VOLCÁN WAFFLES &amp; CAFÉ</text>
+    <text x="35" y="145" class="phone-title-white">¡Bienvenido!</text>
+    <text x="35" y="176" class="body-white">Rol: Administrador</text>
+    <text x="30" y="298" class="phone-title" font-size="20">Menú principal</text>
+    <text x="30" y="324" class="body">Selecciona un módulo</text>
+    <rect x="28" y="350" width="274" height="92" rx="16" fill="#fff" stroke="#eeddd7"/>
+    <circle cx="72" cy="396" r="25" fill="#fce8e1"/>
+    <rect x="61" y="383" width="22" height="26" rx="3" fill="#a3261f"/>
+    <text x="110" y="391" class="card-title">Productos e insumos</text>
+    <text x="110" y="415" class="small">Ingredientes y materiales</text>
+    <text x="280" y="406" text-anchor="middle" font-family="Arial" font-size="30" fill="#a3261f">›</text>
+    <rect x="28" y="456" width="274" height="92" rx="16" fill="#fff" stroke="#eeddd7"/>
+    <circle cx="72" cy="502" r="25" fill="#fce8e1"/>
+    <path d="M59 502 H85 M72 489 V515" stroke="#a3261f" stroke-width="6" stroke-linecap="round"/>
+    <text x="110" y="497" class="card-title">Movimientos</text>
+    <text x="110" y="521" class="small">Entradas, salidas e historial</text>
+    <text x="280" y="512" text-anchor="middle" font-family="Arial" font-size="30" fill="#a3261f">›</text>
+    <rect x="28" y="562" width="274" height="92" rx="16" fill="#fff" stroke="#eeddd7"/>
+    <circle cx="72" cy="608" r="25" fill="#fce8e1"/>
+    <path d="M55 615 L65 604 L74 610 L88 592" fill="none" stroke="#e66b32" stroke-width="5"/>
+    <text x="110" y="603" class="card-title">Control de stock</text>
+    <text x="110" y="627" class="small">Capacidad y alertas</text>
+    <text x="280" y="618" text-anchor="middle" font-family="Arial" font-size="30" fill="#a3261f">›</text>
+    <rect x="28" y="686" width="274" height="48" rx="12" fill="none" stroke="#a3261f" stroke-width="2"/>
+    <text x="165" y="716" text-anchor="middle" class="button-red">CERRAR SESIÓN</text>
+  </g>
+
+  <!-- Screen 4 -->
+  <g transform="translate(1485 195)">
+    <text x="165" y="0" text-anchor="middle" class="screen-label">04 · PRODUCTOS</text>
+    <rect x="0" y="28" width="330" height="760" rx="38" fill="#1d1716" filter="url(#shadow)"/>
+    <rect x="12" y="40" width="306" height="736" rx="29" fill="#fff8f5"/>
+    <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
+    <text x="30" y="110" class="card-title" style="font-size:19px">Inventario de insumos</text>
+    <text x="30" y="136" class="body">Waffles, café y atención</text>
+    <rect x="28" y="165" width="274" height="130" rx="16" fill="#fff" stroke="#eeddd7"/>
+    <text x="45" y="198" class="card-title">Categoría</text>
+    <rect x="45" y="212" width="240" height="35" rx="7" fill="#fff8f5" stroke="#a98e86"/>
+    <text x="57" y="235" class="small">Todas las categorías</text>
+    <rect x="45" y="255" width="240" height="30" rx="8" fill="#a3261f"/>
+    <text x="165" y="275" text-anchor="middle" class="button" font-size="10">APLICAR FILTRO</text>
+    <g transform="translate(28 316)">
+      <rect width="274" height="92" rx="14" fill="#fff"/>
+      <circle cx="38" cy="46" r="22" fill="#fce8e1"/>
+      <rect x="28" y="34" width="20" height="24" rx="3" fill="#a3261f"/>
+      <text x="75" y="34" class="card-title">Harina pastelera</text>
+      <text x="75" y="55" class="small">Repostería</text>
+      <text x="75" y="75" class="small" fill="#a3261f">Stock: 18 kg</text>
+      <rect x="232" y="36" width="16" height="16" rx="3" fill="#a3261f"/>
+    </g>
+    <g transform="translate(28 420)">
+      <rect width="274" height="92" rx="14" fill="#fff"/>
+      <circle cx="38" cy="46" r="22" fill="#fce8e1"/>
+      <rect x="28" y="34" width="20" height="24" rx="3" fill="#a3261f"/>
+      <text x="75" y="34" class="card-title">Frutilla</text>
+      <text x="75" y="55" class="small">Frutas</text>
+      <text x="75" y="75" class="small" fill="#a3261f">Stock: 12 kg</text>
+      <rect x="232" y="36" width="16" height="16" rx="3" fill="#a3261f"/>
+    </g>
+    <g transform="translate(28 524)">
+      <rect width="274" height="92" rx="14" fill="#fff"/>
+      <circle cx="38" cy="46" r="22" fill="#fce8e1"/>
+      <rect x="28" y="34" width="20" height="24" rx="3" fill="#a3261f"/>
+      <text x="75" y="34" class="card-title">Helado de vainilla</text>
+      <text x="75" y="55" class="small">Lácteos y refrigerados</text>
+      <text x="75" y="75" class="small" fill="#a3261f">Stock: 2 baldes · Bajo</text>
+      <rect x="232" y="36" width="16" height="16" rx="3" fill="#fff" stroke="#a3261f"/>
+    </g>
+    <rect x="28" y="676" width="274" height="48" rx="12" fill="none" stroke="#a3261f" stroke-width="2"/>
+    <text x="165" y="706" text-anchor="middle" class="button-red">VOLVER AL MENÚ</text>
+  </g>
+
+  <text x="960" y="1030" text-anchor="middle" class="subtitle" font-size="16">Diseño conceptual independiente · No corresponde a capturas de Android Studio</text>
+</svg>
